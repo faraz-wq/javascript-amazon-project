@@ -1,3 +1,3 @@
-export function formatcurrency(priceCents){
+export default function formatcurrency(priceCents){
     return (priceCents/100).toFixed(2);
 }
